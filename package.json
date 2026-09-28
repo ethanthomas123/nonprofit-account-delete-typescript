@@ -1,0 +1,7 @@
+{
+  "name": "nonprofit-account-delete-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/account_delete.ts", "test": "node --experimental-strip-types test/account_delete.test.ts"},
+  "dependencies": {"zod": "^3.23.8"}
+}

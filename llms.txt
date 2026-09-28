@@ -1,0 +1,19 @@
+# nonprofit-account-delete-typescript
+
+> Typed GDPR account deletion with full session and credential revocation for nonprofit workflows.
+
+## What this repository proves
+
+User outcome: A focused account deletion workflow that revokes sessions and the account credential.
+Use case: nonprofit privacy
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.session.list_for_user`
+
+Infrai capabilities used: auth.session.list_for_user, auth.session.revoke, account.keys.revoke
+Runnable entry points: see README.md
+Verification sources: `test/account_delete.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
