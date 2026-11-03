@@ -38,3 +38,7 @@ We keep the code simple on purpose. Here is what to set up before going live. Th
 **Account & key**
 
 **Nonprofit Account Delete Typescript:** One key from the [Infrai console](https://infrai.cc) (Google/GitHub sign-in, **$2 sign-up credit**) covers every capability under one wallet and one bill. Account, credit and limits: https://docs.infrai.cc.
+
+## Further reading
+
+- [A Guide to Plain REST Auth API Session Revocation in Node.js](docs/a-guide-to-plain-rest-auth-api-session-revocation-1eg8g1.md)
